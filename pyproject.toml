@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-beanie"
+version = "0.1.0"
+description = ""
+authors = ["Francisco De La Cruz <helloquico@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beanie = "1.11.0"
+fastapi = "0.78.0"
+uvicorn = "0.17.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
